@@ -229,7 +229,6 @@ form.addEventListener("submit", function(e){
       const message = formData.get('message');
       const text = `👋 Hello Mohit:\n\n👤 Name: ${name}\n📧 Email: ${email}\n📞 Phone: ${phone}\n💬 Message: ${message}`;
       const encodedText = encodeURIComponent(text);
-      const whatsappLink = ``;
       
       setTimeout(()=>{ window.open(whatsappLink,"_blank"); }, 1500);
     } else {
@@ -272,6 +271,7 @@ setFestivalBackground();
 </script>
 </body>
 </html>
+
 
 
 
